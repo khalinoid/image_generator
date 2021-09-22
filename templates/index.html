@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+</head>
+<body>
+	<form class = "gird" action="/result" method="POST">
+		<center>
+			
+		</center>
+		<label for for="Name">Enter your text:</label>
+		<input type="text" name="name" id="name">
+		<input type="Submit" class="file_submit" >
+		{% if name%}
+		<img src="{{name}}">
+		{%endif%}
+	</form>
+
+</body>
+</html>
